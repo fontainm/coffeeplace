@@ -3,30 +3,33 @@ import footer from '/footer.jpg';
 const Footer = () => {
   return (
     <div
-      className="section footer"
+      className="section footer dark"
       id="about"
       style={{ backgroundImage: `url(${footer})` }}
     >
       <h2>Coffee Place</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p>
+      <p>Wir stehen für Qualität, Gemeinschaft und nachhaltigen Genuss</p>
       <p>
         Adresse 10
         <br />
         1010 Wien
         <br />
+        Österreich
       </p>
-      <h2>Newsletter</h2>
-      <input />
-      <p>© 2024 Mathias Fontain, All Rights Reserved</p>
-      <div>socials</div>
-      <div>
-        <a>Datenschutz</a>
-        <a>Impressum</a>
-        <a>Cookies</a>
+      <div className="footer__socials">
+        <i className="bi bi-facebook"></i>
+        <i className="bi bi-instagram"></i>
+        <i className="bi bi-twitter"></i>
+        <i className="bi bi-youtube"></i>
       </div>
+      <div className="footer__links">
+        <a href="#">Datenschutz</a>
+        <a href="#">Impressum</a>
+        <a href="#">Cookies</a>
+      </div>
+      <p className="footer__copyright">
+        © 2024 Mathias Fontain, All Rights Reserved
+      </p>
     </div>
   );
 };

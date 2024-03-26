@@ -10,7 +10,7 @@ const Header = () => {
       <img src={logoWhite} alt="Coffe Place Logo" className="header__logo" />
       <h1 style={{ display: 'none' }}>Coffee Place</h1>
       <p className="header__subtitle">
-        Dein bester Platz für den besten Kaffee
+        Genieße den Geschmack des Lebens.
       </p>
     </div>
   );

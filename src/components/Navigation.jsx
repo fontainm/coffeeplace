@@ -13,19 +13,19 @@ const Navigation = () => {
   return (
     <nav className={`navigation ${navClass}`}>
       <div className={`navigation__wrapper`}>
-        <a href="#" className="navigation__logo">
+        <a href="#" className="navigation__logo order-1 order-md-4">
           <img src={logo} alt="Coffee Place Logo" />
         </a>
-        <a href="#products" className="navigation__item">
+        <a href="#products" className="navigation__item order-2">
           Produkte
         </a>
-        <a href="#openinghours" className="navigation__item">
+        <a href="#openinghours" className="navigation__item order-3">
           Öffnungszeiten
         </a>
-        <a href="#contact" className="navigation__item">
-          Kontakt
+        <a href="#newsletter" className="navigation__item order-4">
+          Newsletter
         </a>
-        <a href="#about" className="navigation__item">
+        <a href="#about" className="navigation__item order-5">
           Über uns
         </a>
         <div

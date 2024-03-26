@@ -1,0 +1,17 @@
+.newsletter {
+
+  &__input {
+    width: auto;
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  &__button {
+    background: $color-dark;
+    color: $color-secondary;
+
+    &:hover {
+      background: $color-highlight
+    }
+  }
+}
