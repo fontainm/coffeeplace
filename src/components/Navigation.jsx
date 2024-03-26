@@ -30,7 +30,9 @@ const Navigation = () => {
         </a>
         <div
           className="navigation__burger"
-          onClick={() => setNavClass('show')}
+          onClick={() =>
+            navClass === 'show' ? setNavClass('down') : setNavClass('show')
+          }
         >
           <div></div>
         </div>

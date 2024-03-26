@@ -1,0 +1,40 @@
+.openinghours {
+  &__details {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  &__store {
+    background: $color-secondary;
+    width: 300px;
+    margin: 0 1rem;
+    box-shadow: 0px 0px 20px #222;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    * {
+      color: $color-primary !important;
+    }
+  }
+
+  &__place {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  &__image {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+}

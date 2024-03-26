@@ -1,0 +1,33 @@
+.products {
+  &__wrapper {
+    max-width: 500px;
+    margin: 2rem auto;
+  }
+
+  &__product {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+
+  &__image {
+    width: 100px;
+    margin-right: 1rem;
+  }
+
+  &__text {
+    text-align: left;
+  }
+
+  &__name {
+    font-weight: bold;
+  }
+
+  &__description {
+    font-style: italic;
+  }
+
+  &__price {
+    margin-left: auto;
+  }
+}

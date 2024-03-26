@@ -1,0 +1,22 @@
+.header {
+  color: $color-secondary;
+  background-size: cover;
+
+  &__logo {
+    margin: 8rem 0 2rem 0;
+    max-width: 100%;
+    font-size: 6rem;
+    font-weight: bold;
+    color: $color-secondary;
+  }
+
+  &__subtitle {
+    color: $color-secondary;
+    margin-bottom: 10rem;
+    font-size: 2rem;
+  }
+
+  &__image {
+    max-width: 100%;
+  }
+}
