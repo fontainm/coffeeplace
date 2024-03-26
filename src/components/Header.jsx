@@ -7,7 +7,7 @@ const Header = () => {
       style={{ backgroundImage: `url(${header})` }}
     >
       <h1 className="header__title">Coffee Place</h1>
-      <h2 className="header__subtitle">Your Coffee Place for coffee needs</h2>
+      <p className="header__subtitle">Your Coffee Place for coffee needs</p>
     </div>
   );
 };
