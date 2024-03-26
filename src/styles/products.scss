@@ -13,6 +13,7 @@
   &__image {
     width: 100px;
     margin-right: 1rem;
+    border-radius: 0.4rem;
   }
 
   &__text {
@@ -25,9 +26,12 @@
 
   &__description {
     font-style: italic;
+    font-size: 0.8rem;
   }
 
   &__price {
     margin-left: auto;
+    text-align: right;
+    width: 140px;
   }
 }

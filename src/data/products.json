@@ -3,42 +3,42 @@
     "id": 0,
     "name": "Espresso",
     "image": "espresso.jpg",
-    "description": "Klassischer Espresso",
+    "description": "Unser Espresso ist ein intensiver Genuss, perfekt gebraut für den ultimativen Kaffeekick.",
     "price": 290
   },
   {
     "id": 1,
     "name": "Cappuccino",
     "image": "cappuccino.jpg",
-    "description": "Klassischer Cappuccino",
-    "price": 290
+    "description": "Verwöhne dich mit unserem cremigen Cappuccino, perfekt ausgewogen mit einem Hauch von Schaum",
+    "price": 380
   },
   {
     "id": 2,
     "name": "Americano",
     "image": "americano.jpg",
-    "description": "Klassischer Americano",
-    "price": 290
+    "description": "Der Americano ist eine reichhaltige und doch erfrischende Tasse Kaffee, ideal für einen energiegeladenen Start in den Tag",
+    "price": 360
   },
   {
     "id": 3,
     "name": "Matcha Latte",
     "image": "matcha.jpg",
-    "description": "Klassischer Matcha Latte",
-    "price": 290
+    "description": "Genieße die harmonische Verbindung von fein gemahlenem Matcha und cremiger Milch in unserem köstlichen Matcha Latte",
+    "price": 420
   },
   {
     "id": 4,
     "name": "Muffin",
     "image": "muffin.jpg",
-    "description": "Klassischer Muffin",
-    "price": 290
+    "description": "Unsere saftigen Muffins sind die perfekte Begleitung zu deinem Kaffee, mit verschiedenen Geschmacksrichtungen für jeden Geschmack",
+    "price": 300
   },
   {
     "id": 5,
     "name": "Fruchtsalat",
     "image": "fruitsalad.jpg",
-    "description": "Klassischer Fruchtsalat",
-    "price": 290
+    "description": "Erfrische dich mit unserem frischen Fruchtsalat, einer köstlichen Mischung aus saisonalen Früchten, perfekt für einen gesunden Snack oder eine leichte Mahlzeit",
+    "price": 500
   }
 ]
