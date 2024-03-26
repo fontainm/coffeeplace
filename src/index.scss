@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+$color-highlight: #ff8d3e;
+$color-primary: #684f40;
+$color-secondary: #dfe0df;
+$color-dark: #402e32;
+
+:root,
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: $color-secondary;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.section {
+  padding: 2rem;
+}
+
+h1 {
+  color: $color-secondary;
+}
+
+h2 {
+  color: $color-highlight;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3,
+div,
+p {
+  color: $color-dark;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navigation {
+  position: fixed;
+  background: $color-primary;
+  width: 100%;
+  padding: 1rem 0;
+
+  &__wrapper {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__item {
+    padding: 0 1rem;
+    text-decoration: none;
+    color: $color-highlight;
+  }
+}
+
+.header {
+  color: white;
+  background-size: cover;
+
+  &__title {
+    margin-top: 8rem;
+    font-size: 4rem;
+    font-weight: bold;
+    color: $color-secondary;
+  }
+
+  &__subtitle {
+    color: $color-secondary;
+    margin-bottom: 10rem;
+  }
+
+  &__image {
+    max-width: 100%;
+  }
+}
+
+.products {
+  &__wrapper {
+    max-width: 500px;
+    margin: 2rem auto;
+  }
+
+  &__product {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+
+  &__image {
+    width: 100px;
+    margin-right: 1rem;
+  }
+
+  &__text {
+    text-align: left;
+  }
+
+  &__name {
+    font-weight: bold;
+  }
+
+  &__description {
+    font-style: italic;
+  }
+
+  &__price {
+    margin-left: auto;
+  }
+}
+
+.openinghours {
+  &__details {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.footer {
+  background-size: cover;
+
+  div,
+  p {
+    color: $color-secondary;
+  }
+
+  &__image {
+    max-width: 100%;
+  }
+}

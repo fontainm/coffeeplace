@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "name": "Espresso",
+    "image": "espresso.jpg",
+    "description": "Klassischer Espresso",
+    "price": 290
+  },
+  {
+    "id": 1,
+    "name": "Cappuccino",
+    "image": "cappuccino.jpg",
+    "description": "Klassischer Cappuccino",
+    "price": 290
+  },
+  {
+    "id": 2,
+    "name": "Americano",
+    "image": "americano.jpg",
+    "description": "Klassischer Americano",
+    "price": 290
+  },
+  {
+    "id": 3,
+    "name": "Matcha Latte",
+    "image": "matcha.jpg",
+    "description": "Klassischer Matcha Latte",
+    "price": 290
+  },
+  {
+    "id": 4,
+    "name": "Muffin",
+    "image": "muffin.jpg",
+    "description": "Klassischer Muffin",
+    "price": 290
+  },
+  {
+    "id": 5,
+    "name": "Fruchtsalat",
+    "image": "fruitsalad.jpg",
+    "description": "Klassischer Fruchtsalat",
+    "price": 290
+  }
+]
