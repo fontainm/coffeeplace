@@ -1,18 +1,31 @@
+import { Routes, Route, useLocation } from 'react-router-dom';
+
+import Imprint from './pages/Imprint';
+import Privacy from './pages/Privacy';
+import Cookies from './pages/Cookies';
+import Home from './pages/Home';
+
 import Navigation from './components/Navigation';
-import Header from './components/Header';
-import Products from './components/Products';
-import OpeningHours from './components/OpeningHours';
 import Footer from './components/Footer';
-import Newsletter from './components/Newsletter';
+
+import { useEffect } from 'react';
 
 const App = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
-      <Navigation />
-      <Header />
-      <Products />
-      <OpeningHours />
-      <Newsletter />
+      <Navigation className={pathname === '/' ? '' : 'static'} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/impressum" element={<Imprint />} />
+        <Route path="/datenschutz" element={<Privacy />} />
+        <Route path="/cookies" element={<Cookies />} />
+      </Routes>
       <Footer />
     </>
   );

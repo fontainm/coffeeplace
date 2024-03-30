@@ -6,13 +6,10 @@
   transition: all 0.3s ease;
   height: 60px;
   overflow: hidden;
+  box-shadow: 0px 0px 20px #999;
+  background: $color-secondary;
 
-  &.down {
-    background: $color-secondary;
-    box-shadow: 0px 0px 20px #999;
-  }
-
-  &.top {
+  &.top:not(.static) {
     background: transparent;
     box-shadow: none;
 

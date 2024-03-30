@@ -13,6 +13,7 @@ $color-dark: #402e32;
 @import './openinghours.scss';
 @import './newsletter.scss';
 @import './footer.scss';
+@import './imprint.scss';
 
 :root,
 body {
@@ -34,6 +35,7 @@ i {
   }
 }
 
+.page,
 .section {
   padding: 3rem 2rem;
 
@@ -87,6 +89,20 @@ i {
     p {
       color: $color-secondary;
     }
+  }
+}
+
+.page {
+  max-width: 1280px;
+  margin: auto;
+
+  h2 {
+    margin-top: 2rem;
+  }
+
+  p,
+  ol {
+    text-align: left;
   }
 }
 

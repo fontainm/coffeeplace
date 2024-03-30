@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import logo from '/logo.png';
+import { HashLink as Link } from 'react-router-hash-link';
 
-const Navigation = () => {
+const Navigation = ({ className }) => {
   const [navClass, setNavClass] = useState('top');
 
   useEffect(() => {
@@ -11,23 +12,27 @@ const Navigation = () => {
   }, []);
 
   return (
-    <nav className={`navigation ${navClass}`}>
+    <nav className={`navigation ${navClass} ${className}`}>
       <div className={`navigation__wrapper`}>
-        <a href="#" className="navigation__logo order-1 order-md-4">
+        <Link to="/" className="navigation__logo order-1 order-md-4">
           <img src={logo} alt="Coffee Place Logo" />
-        </a>
-        <a href="#products" className="navigation__item order-2">
+        </Link>
+        <Link
+          to="/#products"
+          href="#products"
+          className="navigation__item order-2"
+        >
           Produkte
-        </a>
-        <a href="#openinghours" className="navigation__item order-3">
+        </Link>
+        <Link to="/#openinghours" className="navigation__item order-3">
           Öffnungszeiten
-        </a>
-        <a href="#newsletter" className="navigation__item order-4">
+        </Link>
+        <Link to="/#newsletter" className="navigation__item order-4">
           Newsletter
-        </a>
-        <a href="#about" className="navigation__item order-5">
+        </Link>
+        <Link to="/#about" className="navigation__item order-5">
           Über uns
-        </a>
+        </Link>
         <div
           className="navigation__burger"
           onClick={() =>

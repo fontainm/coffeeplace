@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import footer from '/footer.jpg';
 
 const Footer = () => {
@@ -23,9 +24,9 @@ const Footer = () => {
         <i className="bi bi-youtube"></i>
       </div>
       <div className="footer__links">
-        <a href="#">Datenschutz</a>
-        <a href="#">Impressum</a>
-        <a href="#">Cookies</a>
+        <Link to="/datenschutz">Datenschutz</Link>
+        <Link to="/impressum">Impressum</Link>
+        <Link to="/cookies">Cookies</Link>
       </div>
       <p className="footer__copyright">
         © 2024 Mathias Fontain, All Rights Reserved
