@@ -1,4 +1,8 @@
 .newsletter {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+  }
 
   &__input {
     width: auto;
@@ -11,7 +15,23 @@
     color: $color-secondary;
 
     &:hover {
-      background: $color-highlight
+      background: $color-highlight;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .newsletter {
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__input {
+      margin-right: 0;
+    }
+
+    &__button {
+      margin-top: 0.5rem;
     }
   }
 }

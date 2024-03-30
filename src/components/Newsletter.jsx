@@ -6,10 +6,12 @@ const Newsletter = () => {
         Bleib auf dem Laufenden mit unserem Newsletter und verpasse keine
         Neuigkeiten, Sonderangebote oder Events!
       </p>
-      <input type="text" className="newsletter__input form-control" />
-      <button type="button" className="btn newsletter__button">
-        Abonnieren
-      </button>
+      <div className="newsletter__wrapper">
+        <input type="text" className="newsletter__input form-control" />
+        <button type="button" className="btn newsletter__button">
+          Abonnieren
+        </button>
+      </div>
     </div>
   );
 };
