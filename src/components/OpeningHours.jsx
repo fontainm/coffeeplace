@@ -1,4 +1,4 @@
-import stores from '../data/stores.json';
+import stores from '../data/stores';
 
 const OpeningHours = () => {
   return (
@@ -10,7 +10,7 @@ const OpeningHours = () => {
           <div key={store.id} className="openinghours__wrapper">
             <div className="openinghours__store">
               <img
-                src={`images/stores/${store.image}`}
+                src={store.image}
                 alt="Store 1"
                 className="openinghours__image"
               />

@@ -1,4 +1,4 @@
-import products from '../data/products.json';
+import products from '../data/products';
 
 const Products = () => {
   const formatPrice = (price) => {
@@ -8,12 +8,15 @@ const Products = () => {
   return (
     <div className="section products light" id="products">
       <h2>Produkte</h2>
-      <p>Entdecke unsere köstlichen Kaffeespezialitäten und hausgemachten Leckereien</p>
+      <p>
+        Entdecke unsere köstlichen Kaffeespezialitäten und hausgemachten
+        Leckereien
+      </p>
       <div className="products__wrapper">
         {products.map((product) => (
           <div key={product.id} className="products__product">
             <img
-              src={`images/products/${product.image}`}
+              src={product.image}
               alt={product.name}
               className="products__image"
             />
