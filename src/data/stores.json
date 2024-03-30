@@ -1,0 +1,24 @@
+[
+  {
+    "id": 0,
+    "name": "Coffee Place A",
+    "address": "Straße 1",
+    "image": "store1.jpg",
+    "openinghours": [
+      "Mo geschlossen",
+      "Di - Fr: 07:00 - 16:30",
+      "Sa - So: 12:00 - 17:30"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Coffee Place B",
+    "address": "Gasse 10",
+    "image": "store2.jpg",
+    "openinghours": [
+      "Mo - Do: 06:30 - 18:00",
+      "Fr geschlossen",
+      "Sa - So: 13:00 - 18:00"
+    ]
+  }
+]
