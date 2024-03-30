@@ -10,7 +10,7 @@ const OpeningHours = () => {
           <div key={store.id} className="openinghours__wrapper">
             <div className="openinghours__store">
               <img
-                src={`/stores/${store.image}`}
+                src={`images/stores/${store.image}`}
                 alt="Store 1"
                 className="openinghours__image"
               />
