@@ -19,8 +19,12 @@
     margin-top: 3rem;
     margin-bottom: 1rem;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     a {
-      padding: 0 1rem;
+      padding: 0.5rem 1rem;
     }
   }
 
@@ -30,5 +34,15 @@
 
   &__copyright {
     margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    &__links,
+    &__copyright {
+      flex-direction: column;
+      margin-top: 2rem;
+    }
   }
 }
