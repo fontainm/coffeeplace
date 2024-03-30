@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import logo from '/logo.png';
+import logo from '/images/logo.png';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Navigation = ({ className }) => {

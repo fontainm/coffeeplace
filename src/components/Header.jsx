@@ -1,5 +1,5 @@
-import header from '/header.jpg';
-import logoWhite from '/logo_white.png';
+import header from '/images/header.jpg';
+import logoWhite from '/images/logo_white.png';
 
 const Header = () => {
   return (

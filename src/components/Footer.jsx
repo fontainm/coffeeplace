@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import footer from '/footer.jpg';
+import footer from '/images/footer.jpg';
 
 const Footer = () => {
   return (

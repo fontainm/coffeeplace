@@ -13,7 +13,7 @@ const Products = () => {
         {products.map((product) => (
           <div key={product.id} className="products__product">
             <img
-              src={`/products/${product.image}`}
+              src={`images/products/${product.image}`}
               alt={product.name}
               className="products__image"
             />

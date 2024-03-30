@@ -63,7 +63,7 @@ i {
     background: $color-secondary;
 
     h2::after {
-      background: url('/divider.png');
+      background: url('/images/divider.png');
       background-repeat: no-repeat;
       background-size: contain;
     }
@@ -79,7 +79,7 @@ i {
     background-color: $color-primary;
 
     h2::after {
-      background: url('/divider_white.png');
+      background: url('/images/divider_white.png');
       background-repeat: no-repeat;
       background-size: contain;
     }
