@@ -29,7 +29,10 @@ const Footer = () => {
         <Link to="/cookies">Cookies</Link>
       </div>
       <p className="footer__copyright">
-        © 2024 Mathias Fontain, All Rights Reserved
+        © 2024{' '}
+        <a href="https://www.mathiasfontain.at" target="_blank">
+          Mathias Fontain
+        </a>
       </p>
     </div>
   );
