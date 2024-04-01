@@ -114,4 +114,11 @@ i {
       top: 3rem;
     }
   }
+
+  a,
+  i {
+    &:hover {
+      transform: translateY(0px);
+    }
+  }
 }
