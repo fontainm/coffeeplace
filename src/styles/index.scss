@@ -7,6 +7,7 @@ $color-primary: #684f40;
 $color-secondary: #dfe0df;
 $color-dark: #402e32;
 
+@import './loadingscreen.scss';
 @import './navigation.scss';
 @import './header.scss';
 @import './products.scss';
